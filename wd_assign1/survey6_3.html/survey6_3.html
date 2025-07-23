@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta charset="utf-8" > 
+   <meta name="description" content="My Survey" > 
+   <meta name="keywords"    content="Survey" > 
+   <meta name="author"      content="Giai My Truong" > 
+   <title>Survey</title> 
+   <link href="style/style8.css" rel="stylesheet" type="text/css">
+  </head> 
+<body> 
+   <header> <hr> 
+    <h1> Survey </h1>
+</header> 
+<form id="survey" method="post" 
+action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php"> 
+ <fieldset>
+  <p> <b> <label> Full name: </label> </b> 
+     <input type="text" name="fname" size="22" >  </p> 
+     <p> 
+<hr> 
+     <p> <strong>What is your gender?</strong> </p>
+  <div class="gender-grid">
+    <div>
+      <label>
+        <input type="radio" name="gender" value="Female">Male</label>
+    </div>
+    <div>
+      <label>
+        <input type="radio" name="gender" value="Female">Female
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="radio" name="gender" value="Non binary"> Non-binary
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="radio" name="gender" value="Prefer not to answer" > Prefer not to answer
+      </label>
+    </div>
+  </div>
+   <hr>
+  <p> <label> <strong> What is your occupation? </strong> 
+    </label>
+      <select name="Degree">
+         <option value="">Select an option</option> 
+        <option value="Tutor">Tutor</option>
+        <option value="Convenor">Convenor</option>
+        <option value="Student">Student</option>
+      </select>
+  </p>
+</fieldset>
+    <fieldset>
+       <legend> <strong> How satisfied are you with my website?</strong> </legend>
+     <input type="radio" name="rate"
+value="Excellent" >Excellent <br >
+<input type="radio" name="rate"
+value="Good" >Good <br>
+<input type="radio" name="rate"
+value="Fair" >Fair<br >
+<input type="radio" name="rate"
+value="Poor" >Poor <br >
+
+      <hr> 
+      <p> <b> Which part of the site do you like (Check all that applies)? </b> </p>
+      <p> <input type="Checkbox" name="My Information"
+      value="My Information"> My Information  </p> 
+      <p> <input type="Checkbox" name="My Hometown"
+       value="My Hometown"> My Hometown</p>
+      <p><input type="Checkbox" name="My Achievement"
+      value="My Achievement"> My Achievement</p>
+      <p><input type="Checkbox" name="My Interestes"
+      value="My Interestes"> My Interestes</p>
+      <p><input type="Checkbox" name="My Timetable"
+      value="My Timetable"> My Timetable</p>
+      <p><input type="Checkbox" name="Survey"
+      value="My Survey"> Survey</p>
+  <hr>
+  <p> <strong> <label> Could you please tell me something to improve my site? </label> </strong> <br> </p>
+    <textarea name="comments" rows="6" cols="70">
+  </textarea>
+</fieldset>
+<p><input type="submit" value="Submit" > 
+  <input type="reset" value="Reset" > 
+   <p> <a href="mytimetable5.html">Previous</a> </p>
+  <p> <a href="myinformation1.html">Main Page</a> </p>
+  <p> <a href="animation.html">Next</a> </p>
+  </form>
+</body>
+  </html>

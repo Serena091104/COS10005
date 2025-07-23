@@ -1,0 +1,56 @@
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  text-align: center;
+  color: green;
+  margin: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+footer img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+fieldset {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}

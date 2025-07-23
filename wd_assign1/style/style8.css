@@ -1,0 +1,11 @@
+main {
+  overflow: auto; 
+}
+header, h1 {
+  text-align: centre;
+}
+header, nav {
+border-style:outset; }
+body {
+  background-color: #f5f5f5; 
+}

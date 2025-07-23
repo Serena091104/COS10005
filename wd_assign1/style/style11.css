@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+header {
+  text-align: center;
+  colour: green;
+  margin: 10px 0;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+nav a {
+  display: block;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+footer img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+}
+article {
+  margin: 0 auto;
+  max-width: 800px;
+}
+section {
+  margin-bottom: 20px;
+}
+fieldset {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
