@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta charset="utf-8" > 
+   <meta name="description" content="My Home Page" > 
+   <meta name="keywords"    content="Home Page" > 
+   <meta name="author"      content="Giai My Truong" > 
+   <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+   <link href="css/style1.css" rel="stylesheet" type="text/css" />
+   <script src="js/validation.js"></script>
+
+   <title>Register</title> 
+</head> 
+<body> 
+   <header> <hr>
+    <h1> SWEET LIFE </h1>
+    <h3> HANDMADE GELATO</h3>
+    </header> 
+    <section id="home">
+    <nav> 
+    <section class="logo"> 
+        <img src="images/logo1.png" alt="">
+    </section>
+    <ul> 
+    <li><a id="gindex" href="index.html"> Home </a></li>
+    <li><a id="gregister"href="registratio .html" class=" highlight" > Registration </a></li>
+    <li><a id="gorder"href="order.html"> Order </a></li>
+    <li><a id="gfeatures"href="features.html"> Features </a></li>
+    </ul>
+    </nav>
+    <aside> 
+    <img src="images/logo.png" alt="ice cream" id = "picture">
+    </aside>
+    <section>
+        <form action="https://mercury.swin.edu.au/it000000/cos10005/regtest.php" method="post" id="register">
+           
+               <p><strong> Account Information </p></strong>
+               <section class="textinput">
+                <label for="name">Name:</label><br>
+                <input id="name" type="text" name="name" />
+            </section>            
+                </section>
+                <section class="textinput">
+                    <strong><label for="password">Password: </strong></label><br>
+                    <input id="password" type="password" name="Password" />
+                        </section>
+                    <section class="textinput">
+                        <strong><label for="rpassword">Retype Password:</strong></label><br>
+                        <input id="rpassword" type="password" name="Retype password" />
+                    </section>
+                    <section class="textinput">
+                        <strong><label for="phone">Contact number:</strong></label><br>
+                        <input id="phone" type="tel" name="phone" />
+                    </section>
+                    <section class="textinput">
+                        <strong><label for="email">Email:</strong></label><br>
+                        <input id="email" type="text" name="email" />
+                    </section>
+            <br> <hr>
+                <p><strong> What is your gender?</strong> </p>
+            <section>
+                <label>
+                    <input type="radio" name="gender" id="male" value="Male">Male
+                </label>
+                </section>
+                <section>
+                <label>
+                    <input type="radio" name="gender" value="Female" id="female">Female
+                </label>
+                </section>
+                <strong> <label for="dob">Date of birth:</label> </strong>
+                <input type="date" id="dob" min="1920-01-10" max="2022-10-20" name="Date of birth">
+                <section>
+                    <strong><label for="icecream">Favorite Ice Cream Types: </strong></label> <br>
+                    <select name="icecream" id="icecream">
+                    <option value="select"  selected disabled>Please select your flavour</option>
+                    <option value="Vanilla">CLASSSIC VANILLA</option>
+                    <option value="Strawberry">STRAWBERRY</option>
+                    <option value="Chocolate">CHOCOLATE</option>
+                    <option value="Coffee">COFFEE</option>
+                    <option value="Cookie">COOKIE & CREAM</option>
+                    <option value="Pistachio Love">PISTACHIO</option>
+                    <option value="Peanut">PEANUT BUTTER</option>
+                    <option value="Mint">MINT</option>
+                    <option value="Salted">SALTED CARAMEL</option>
+                    <option value="Matcha">MATCHA</option>
+                    <option value="Greentea">GREEN TEA</option>
+                    <option value="yagourt">GREEK YOGURT</option>
+                    <option value="Choco">CHOCOLATE SALTED BUTTER YOGURT</option>
+                    <option value="Mintchoc"> MINT CHOC CHIP</option>
+                </select>
+                <br>
+                <input type="Submit" value = "Register Now" id="finalsub">
+      </form>
+       <footer> 
+        <p> <strong> ADDRESS </p></strong>
+        <p> 9 Wakefield Street, Hawthorn, VICTORIA 3011 </p>
+        <br> <a href="index.html">Previous</a> 
+        <br> <a href="index.html">Back to Main Page</a> 
+        <br> <a href="order.html"> Next </a> 
+        </footer>
+    </body>
+    </html>
+    

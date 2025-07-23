@@ -1,0 +1,133 @@
+main {
+	overflow:auto; 
+}
+header h1 {
+text-align:center;
+}
+header {
+	color: #855E42 ;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    height: 100px;
+    width:100%;
+}
+section nav{
+    height: 80px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+section nav .logo img {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+section nav ul { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+section nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: 0.1s
+}
+section nav ul li a:hover {
+    color: #855E42;
+}
+#picture
+{
+    float: right;
+    width: 15%;
+    height: 60%;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 40px 40px 0 0;
+}
+#para{
+    width: 70%;
+    font-size: 150%;
+    color: rgb(110, 110, 110);
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    text-align: center;
+}
+h2{
+    color: #855E42 ;
+}
+h2{ 
+    color: #855E42 ;
+    text-align: center;
+    margin: 2em auto 1em auto;  
+    max-width: 70%;
+}
+h1{
+    color: #855E42 ;
+}
+table { 
+width: 20%;
+padding:1em;
+margin: auto;
+}
+
+td, th
+{
+background-color: #f2f2f2;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 20px;
+padding: 1em;
+}
+
+.menu-info h3{
+    width:60%;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 25px;
+    color: #00d4ff;
+}
+.menu-info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+}
+.im {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+footer {
+padding: 20px;
+background-color: lightblue;
+color: black;
+text-align: center;
+border: 3px outset white;
+}
+.hidden {
+    display: none;
+}
+.highlight {
+    background-color: lightpink;
+    color:#855E42;
+}
+
+  
